@@ -10,24 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require rails-ujs
-//= require activestorage
-//= require turbolinks
-//= require bootstrap-sprockets
-//= require_tree .
-
-
-
-
-・こちらに→ //= require jquery を追記してください。
-//= require rails-ujs
-//= require activestorage
-//= require turbolinks
-//= require_tree .
-
-・完成形
 //= require jquery
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require bootstrap-sprockets
 //= require_tree .
